@@ -1,0 +1,17 @@
+import random
+a=random.randrange(1,10)
+guess=int(input("enter the number:"))
+if a==guess:
+    print("same number",a)
+elif a<guess:
+    print("less then the guessed  number ")
+else: 
+    print("greater then the guessed number")
+    
+    
+ """
+ enter the number:5
+ if a=guess then print same number
+ else print greater or lesser than the guessed nnumber
+ """
+
