@@ -1,0 +1,17 @@
+i=5
+if(i==5):
+    a=input("enter:")
+    while a!="q":
+       print ("infinte loop")
+else:
+   print("break")
+ 
+"""
+input
+enter:abcd
+infinte loop
+   ....
+   ....
+enter:enquiry
+break
+""""""""""
